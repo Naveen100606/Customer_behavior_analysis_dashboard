@@ -1,4 +1,4 @@
-🛍️ Customer Behavior Data Analysis --- SQL, Python & Power BI
+Customer Behavior Data Analysis --- SQL, Python & Power BI
 
 An end-to-end Customer Shopping Behavior Data Analyst Portfolio
 Project built to demonstrate practical skills in Python, Pandas,
@@ -9,7 +9,7 @@ transforms it using Python, loads the prepared dataset into PostgreSQL,
 answers business questions using SQL, and presents customer and sales
 insights through an interactive Power BI dashboard.
 
-📌 Project Overview
+Project Overview
 
 The objective of this project is to understand customer purchasing
 behavior, spending patterns, product performance, subscriptions,
@@ -32,7 +32,7 @@ Power BI Dashboard
        ↓
 Business Insights & Recommendations
 
-📊 Dataset
+Dataset
 
 The dataset contains 3,900 customer purchase records and initially
 contains 18 columns.
@@ -63,7 +63,7 @@ Frequency of Purchases   Customer purchase frequency
 The dataset contains 37 missing values in the Review Rating column.
 These values are handled during the Python data-cleaning stage.
 
-🐍 Python / Pandas --- Data Preparation
+Python / Pandas --- Data Preparation
 
 Python is used for data loading, exploration, cleaning and feature
 engineering.
@@ -125,7 +125,7 @@ Quarterly            90
 Every 3 Months       90
 Annually            365
 
-🗄️ SQL Analysis --- PostgreSQL
+SQL Analysis --- PostgreSQL
 
 After preparing the data in Python, the cleaned DataFrame is loaded into
 a PostgreSQL database.
@@ -187,7 +187,7 @@ Common Table Expressions (CTEs)
 
 Window functions such as ROW_NUMBER()
 
-📈 Power BI Dashboard
+Power BI Dashboard
 
 The cleaned and analyzed customer data is visualized in an interactive
 Customer Behavior Dashboard.
@@ -228,7 +228,7 @@ The dashboard allows users to filter the customer data and immediately
 explore how different customer segments affect sales, revenue and
 purchasing behavior.
 
-🔎 Example Dashboard View
+Example Dashboard View
 
 The dashboard is designed to make it easy for a business stakeholder to
 answer questions such as:
@@ -246,7 +246,7 @@ How do different shipping types affect customer spending?
 
 How does the dashboard change when filtering by gender or category?
 
-💡 Business Analysis Areas
+Business Analysis Areas
 
 The project focuses on several important retail analytics areas:
 
@@ -276,7 +276,7 @@ Total revenue
 
 Repeat purchasing behavior
 
-Product Analysis
+## Product Analysis
 
 Product-level analysis helps identify:
 
@@ -326,7 +326,7 @@ visualization
 
 Jupyter Notebook                Python development environment
 
-📁 Project Structure
+## Project Structure
 
 customer-behavior-data-analysis/
 │
@@ -346,7 +346,7 @@ customer-behavior-data-analysis/
 File names can be adjusted to match the exact names used in your
 GitHub repository.
 
-🚀 How to Run the Project
+## How to Run the Project
 
 1. Clone the repository
 
@@ -409,7 +409,7 @@ customer_behavior_dashboard.pbix
 Connect Power BI to the PostgreSQL database and use the cleaned customer
 table for visualization.
 
-📌 Key Dataset Statistics
+## Key Dataset Statistics
 
 The initial dataset contains:
 
@@ -440,7 +440,7 @@ The Python notebook also shows that the average customer age is
 approximately 44 years and the average number of previous purchases
 is approximately 25.
 
-🎯 Business Value
+## Business Value
 
 This project demonstrates how a Data Analyst can move from:
 
@@ -451,7 +451,7 @@ The project is designed to demonstrate practical skills that are
 commonly required in entry-level and junior Data Analyst / Business
 Analyst roles.
 
-📚 Skills Demonstrated
+## Skills Demonstrated
 
 Data Analysis
 
@@ -519,7 +519,7 @@ SQLAlchemy
 
 Loading Pandas DataFrames into SQL
 
-👨‍💼 Portfolio Project
+## Portfolio Project
 
 This project can be presented as an end-to-end Data Analyst portfolio
 project because it demonstrates the complete workflow:
@@ -538,7 +538,7 @@ Data Visualization
       ↓
 Business Insights
 
-📌 Future Improvements
+## Future Improvements
 
 Possible extensions to make the project more advanced:
 
@@ -561,12 +561,12 @@ Create a dedicated executive summary page.
 
 Add automated data refresh from PostgreSQL.
 
-📜 License
+## License
 
 This project is intended for learning, portfolio development and
 educational purposes.
 
-⭐ About This Project
+## About This Project
 
 This project demonstrates an end-to-end approach to customer behavior
 analytics using Python, SQL/PostgreSQL and Power BI, with the goal
